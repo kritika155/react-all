@@ -1,0 +1,18 @@
+<html>
+    <head><title>Promise</title></head>
+    <body>
+       <script>
+         var promise=new Promise(function(resolve,reject){
+            if(true)
+            {
+                resolve("I am Resolved");
+            }
+            else{
+                reject("It's over");
+            }
+        })
+        promise.then(result=>{console.log(result)}).catch(err=>{console.log(err)});
+        console.log("--------look at me--------");
+        </script>
+    </body>
+</html>

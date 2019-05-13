@@ -1,0 +1,12 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+studentArray=[{id:1,name:'Kritika',subject:'Hindi',marks:70,grade'A'},
+{id:2,name:'Ashish',subject:'English',marks:80,grade'A'},
+{id:3,name:'Amrita,subject:'Maths',marks:50,grade'B'}];
+console.log(studentArray);
+</script>
+</body>
+</html>

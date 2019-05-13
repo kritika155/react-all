@@ -1,0 +1,8 @@
+function person(){
+    console.log(this.username);
+}
+var userDetails={
+    username:"Ravi",
+    password:"xxjdfd"
+};
+person.call(userDetails);

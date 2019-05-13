@@ -1,0 +1,45 @@
+<html>
+    <head><title>Class</title></head>
+    <body>
+      <script>
+          p=[30,40];
+          q=p;
+          console.log(q);
+          a={
+              firstName:'Sonam',
+              lastName:'Roy'
+          }
+          b={
+              ...a,
+              address:'Kolkata'
+          }
+          var name={
+              eName:"Kritika"
+          }
+          qName=name;
+          qName.eName="Johnny";
+          console.log(qName);
+          console.log(b);
+        class Person{
+            constructor(){
+                this.username="kritika";
+                this.lastName="Roy";
+                this.firstName="Kritika";
+            }
+            getFullName(){
+                return this.firstName+" "+this.lastName;
+            }
+        }
+        class Company extends Person{
+             constructor(){
+                        super();
+                      }
+        }
+    var company=new Company();
+    var person=new Person();
+    console.log(company);
+        var fullName=person.getFullName();
+        console.log(fullName);
+        </script>
+    </body>
+</html>

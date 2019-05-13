@@ -1,0 +1,24 @@
+<html>
+    <head><title>AddListener</title></head>
+    <body>
+        <form>
+                <button id="btnClick">Click Me</button>
+                <input type="text" id="txtOne" name="tex">
+        </form>
+        <script>
+            var x=document.getElementById('btnClick');
+            var c=x.innerHTML;
+            var y=document.getElementById('txtOne');
+            var d=y.innerText;
+            // x.addEventListener("click",function(){
+            //     console.log(this);
+            // })
+            y.addEventListener("change",function(){
+                console.log(this);
+            })
+            x.addEventListener("click",()=>{
+                console.log(this);
+            })
+        </script>
+    </body>
+</html>
